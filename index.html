@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="img/logo.png" ></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa fa-window-close" onclick="hideMenu"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Biggest Asian University</h1>
+            <p>The term 'IIT' stands for the Indian Institute Of Technology. This is said to be <br> the most reputed educational entity that offers higher education in different disciplines of engineering.</p>
+            <a href="" class="links">Visit Us to know more</a>
+        </div>
+    </section>
+    <!-----Course----->
+    <section class="course">
+        <h1>Courses We Offer</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+        <div class="row">
+            <div class="column">
+                <h3>Intermediate Degree</h3>
+                <p>The intermediate degree course bridges undergraduate and advanced studies, providing a strong foundation and practical skills for further academic or professional pursuits</p>
+            </div>
+            <div class="column">
+                <h3>Honours Degree</h3>
+                <p>The honours degree course offers in-depth study and research in your field, preparing you for postgraduate studies or specialized careers with a significant research component.</p>
+            </div>
+            <div class="column">
+                <h3>Post Graduate Degree</h3>
+                <p>The postgraduate degree course provides advanced knowledge and specialized skills, focusing on research and professional application for leadership roles or academic careers.</p>
+            </div>
+        </div>
+    </section>
+    <!---Campus-->
+    <section class="campus">
+        <h1>IIT GLOBAL CAMPUS</h1>
+        <p>The IIT campus features cutting-edge facilities, vibrant communities, and numerous extracurricular activities, supporting both academic and personal growth.</p>
+        <div class="row">
+            <div class="column">
+                <img src="img/2.jpeg">
+                <div class="layer">
+                    <h3>MADRAS</h3>
+                </div>
+            </div>
+            <div class="column">
+                    <img src="img/3.jpeg">
+                    <div class="layer">
+                        <h3>DELHI</h3>
+                    </div>
+            </div>
+            <div class="column">
+                        <img src="img/4.jpg">
+                        <div class="layer">
+                            <h3>KHARAGPUR</h3>
+                        </div>
+            </div>
+        </div>
+    </section>
+    <!---Faclities-->
+    <section class="facilities">
+        <h1>IIT FACILITIES</h1>
+        <p>IIT boasts modern labs, libraries, research centers, and student hubs, fostering academic excellence and innovation.</p>
+        <div class="row">
+            <div class="f col">
+                <img src="img/5.jpeg">
+                <h3>IIT LIBRARY</h3>
+                <p>The IIT library offers extensive resources for research and quiet study spaces.</p>
+            </div>
+            <div class="f col">
+                <img src="img/6.jpeg">
+                <h3>IIT COMPUTER LAB</h3>
+                <p>The IIT Computer Club provides a collaborative environment for coding and technology exploration.</p>
+            </div>
+            <div class="f col">
+                <img src="img/7.jpeg">
+                <h3>IIT SPORTS GROUND</h3>
+                <p>IIT's sports ground offers diverse facilities for sports and fitness, fostering physical health and teamwork.</p>
+            </div>
+        </div>
+    </section>
+    <!--Testimonials-->
+    <section class="testi">
+        <h1>What Our student says</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit </p>
+        <div class="row">
+            <div class="tcol">
+                <img src="img/8.jpeg">
+                <div>
+                    <p>IIT's rigorous academics and world-class faculty have pushed me to excel and expand my knowledge</p>
+                <h3>Devid Raya</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i> 
+                </div>
+            </div>
+            <div class="tcol">
+                <img src="img/9.jpg">
+               <div>
+                <p>The collaborative spirit and diverse student clubs at IIT have helped me learn and make lifelong friends</p>
+                <h3>Lionel Ronaldo</h3>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star-half-alt"></i> 
+               </div>
+            </div>
+        </div>
+    </section>
+    <!--Call TO action-->
+    <section class="cta">
+        <h1>Enroll Now</h1>
+        <a href="" class="links">CONTACT US</a>
+    </section>
+    <!---Footer-->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>IIT is renowned for its rigorous academics, world-class faculty, and vibrant campus life,<br> fostering academic excellence and personal growth among students.</p>
+        <div class="icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-linkedin"></i>
+        </div>
+        <p>Madw With <i class="fa fa-heart-o"></i> By Meherab Mehu</p>
+    </section>
+    <!-----Javascript For Toggle menu----->
+    <script>
+        var navlinks = document.getElementById("navlinks");
+        function showMenu(){
+            navlinks.style.right="0";
+        }
+        function hideMenu(){
+            navlinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
